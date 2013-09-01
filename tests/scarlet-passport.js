@@ -3,7 +3,7 @@ var should = require("should");
 var Scarlet = require('scarlet');
 var passport = require("passport");
 
-var scarlet = new Scarlet(['../lib/scarlet-passport']);
+var scarlet = new Scarlet('../lib/scarlet-passport');
 var scarletPassport = scarlet.plugins.scarletPassport;
 
 function localStrategyContext(mockUser){
