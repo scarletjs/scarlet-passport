@@ -1,0 +1,41 @@
+{
+  "name": "scarlet-passport",
+  "version": "0.0.0",
+  "description": "Authentication Using Passport and Scarlet Interception",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scarletjs/scarlet-passport.git"
+  },
+  "keywords": [
+    "passport",
+    "authentication",
+    "security",
+    "oauth",
+    "oauth2",
+    "inteception",
+    "aop",
+    "scarlet"
+  ],
+  "author": "Tim Chaplin",
+  "license": "MIT",
+  "dependencies": {
+    "scarlet": "~0.5.8",
+    "passport": "~0.1.17"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-release": "~0.5.1",
+    "mocha": "~1.12.1",
+    "should": "~1.2.2",
+    "passport-local": "~0.1.6"
+  }
+}
