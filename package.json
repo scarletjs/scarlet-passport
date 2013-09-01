@@ -25,8 +25,10 @@
   ],
   "author": "Tim Chaplin",
   "license": "MIT",
+  "peerDependencies": {
+    "scarlet": "~0.5.9"
+    },
   "dependencies": {
-    "scarlet": "~0.5.8",
     "passport": "~0.1.17"
   },
   "devDependencies": {
@@ -36,6 +38,7 @@
     "grunt-release": "~0.5.1",
     "mocha": "~1.12.1",
     "should": "~1.2.2",
-    "passport-local": "~0.1.6"
+    "passport-local": "~0.1.6",
+    "scarlet": "~0.5.9"
   }
 }
