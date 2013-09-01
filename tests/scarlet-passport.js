@@ -4,7 +4,7 @@ var Scarlet = require('scarlet');
 var passport = require("passport");
 
 var scarlet = new Scarlet('../lib/scarlet-passport');
-var scarletPassport = scarlet.plugins.scarletPassport;
+var scarletPassport = scarlet.plugins.passport;
 
 function localStrategyContext(mockUser){
 	LocalStrategy = require('passport-local').Strategy;

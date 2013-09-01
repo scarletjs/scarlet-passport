@@ -15,7 +15,7 @@ scarlet-passport
 ```javascript
 var Scarlet = require('scarlet');
 var scarlet = new Scarlet('scarlet-passport');
-var scarletPassport = scarlet.plugins.scarletPassport;
+var scarletPassport = scarlet.plugins.passport;
 
 //set a passport strategy
 scarletPassport.use(new LocalStrategy(function(username,password,done){
@@ -65,4 +65,7 @@ var Scarlet = require('scarlet');
 
 //Initialize scarlet with the plugin
 var scarlet = new Scarlet('scarlet-passport');
+
+//Get direct access to the passport plugin
+var scarletPassport = scarlet.plugins.passport;
 ```

@@ -21,7 +21,8 @@
     "oauth2",
     "inteception",
     "aop",
-    "scarlet"
+    "scarlet",
+    "plugins"
   ],
   "author": "Tim Chaplin",
   "license": "MIT",
