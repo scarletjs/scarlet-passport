@@ -1,6 +1,6 @@
 {
   "name": "scarlet-passport",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scarlet plugin for using Passport authentication",
   "main": "index.js",
   "directories": {
@@ -27,7 +27,7 @@
   "license": "MIT",
   "peerDependencies": {
     "scarlet": "~0.5.11"
-    },
+  },
   "dependencies": {
     "passport": "~0.1.17"
   },
