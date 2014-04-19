@@ -4,10 +4,11 @@
   "description": "Scarlet plugin for using Passport authentication",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test",
+    "lib": "lib"
   },
   "scripts": {
-    "test": "mocha --reporter spec tests/*"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -27,19 +28,24 @@
   "author": "Tim Chaplin",
   "license": "MIT",
   "peerDependencies": {
-    "scarlet": "~0.5.11"
+    "scarlet": "~2.0.20"
   },
   "dependencies": {
-    "passport": "~0.1.17"
+    "passport": "~0.2.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-release": "~0.5.1",
-    "mocha": "~1.12.1",
-    "should": "~1.2.2",
-    "passport-local": "~0.1.6",
-    "scarlet": "~0.5.11"
+    "mocha": "~1.18.2",
+    "should": "~3.3.1",
+    "passport-local": "~1.0.0",
+    "scarlet": "~2.0.20",
+    "gulp": "~3.6.1",
+    "gulp-util": "~2.2.14",
+    "gulp-mocha": "~0.4.1",
+    "gulp-jshint": "~1.5.3",
+    "gulp-bump": "~0.1.7",
+    "gulp-git": "~0.3.6"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
   }
 }
